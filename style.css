@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8em;
+}
+
+.time {
+	display: flex;
+	height: 1em;
+	overflow: hidden;
+}
+
+.num {
+	display: flex;
+	flex-direction: column;
+	transition: 1s margin-top;
+}
+
+.time > span {
+	margin-top: -0.075em;
+}
+
+span {
+	user-select: none;
+}
